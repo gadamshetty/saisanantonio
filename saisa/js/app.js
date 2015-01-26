@@ -193,7 +193,7 @@ $('#mailinglist2').click(function (e) {
 
 });
 
-$('#suggestionbox').click(function (e) {
+$('.suggestionbox').click(function (e) {
     //alert("Load was performed for support.");
     $("#container").scrollTop();
     $.get("../frmSuggestion.html", function (data) {
