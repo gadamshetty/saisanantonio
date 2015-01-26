@@ -1,0 +1,102 @@
+﻿
+<div class="row">
+    
+    <!--<div class="col-md-6">
+        <div class="containerborder">
+            <h4>Join our Mailing List:</h4>
+            <form role="form" id="form1" >
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="text" class="form-control" id="subscribename" name="sname" placeholder="Enter Full Name(First, Last)">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="subscribeemail" name="semail" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Phone(Optional)</label>
+                    <input type="text" class="form-control" id="subscribephone" name="sphone" placeholder="Contact Number">
+                </div>
+                <div class="form-group">
+                    <label for="subscribecomms">Comments(Optional)</label>
+                    <input type="text" class="form-control" id="subscribecomms" name="scomments" placeholder="Comments">
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="svolunteer" value="Yes"> Interested in Volunteer
+                    </label>
+                </div>
+                <input type="hidden" name="mailtype" value="1" />
+                <button type="button" data-msg="statusmsg1" class="btn btn-default submitseva">Submit</button>
+                <div class="bg-primary" id="statusmsg1"></div>
+            </form>
+        </div>
+        </div>-->
+
+    <div class="col-md-6">
+        <div class="containerborder">
+            <h4>Sponsor Food/Prasad/Flowers:</h4>
+            <form role="form" id="form2" >
+                <div class="form-group">
+                    <label for="sponsorname">Name</label>
+                    <input type="text" class="form-control" id="sponsorname" name="sname" placeholder="Enter Full Name(First, Last)">
+                </div>
+                <div class="form-group">
+                    <label for="sponsoremail">Email address</label>
+                    <input type="email" class="form-control" id="sponsoremail" name="semail" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="sponsorphone">Phone(Optional)</label>
+                    <input type="text" class="form-control" id="sponsorphone" name="sphone" placeholder="Contact Number">
+                </div>
+                <div class="form-group">
+                    <label for="sponsorcomms">Comments(Optional)</label>
+                    <input type="text" class="form-control" id="sponsorcomms" name="scomments" placeholder="Comments">
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <div>
+                            <input type="checkbox" name="svolunteer1" value="Food"> Baba Prasadam
+                        </div>
+                        <div>
+                            <input type="checkbox" name="svolunteer3" value="Flowers"> Baba Garlands or Flowers For Baba
+                        </div>
+                        <div>
+                            <input type="checkbox" name="svolunteer4" value="Other"> Other(Please enter comments)
+                        </div>
+                    </label>
+                </div>
+                <input type="hidden" name="mailtype" value="2" />
+                <button type="button" data-msg="statusmsg2" class="btn btn-default submitseva">Submit</button>
+                <div class="badge" >Note: Please write date and quanity of Baba Prasadam in comments</div>
+                <div class="bg-primary" id="statusmsg2"></div>
+            </form>
+        </div>
+</div>
+    
+</div>
+
+<script type="text/javascript">
+    //email
+    $('.submitseva').click(function (e) {
+        //return false;
+        //alert("clicked");
+        //console.log(this);
+        var $thismsg = $(this).attr("data-msg");
+        var $thisform = $($(this).parent()[0]);
+        $.ajax({
+            type: "POST",
+            url: "sendemail.php",
+            data: $thisform.serialize(),
+            success: function (data) {
+                $('#' + $thismsg).html(data).fadeIn(100).fadeOut(5000);
+                $(':input', $thisform)
+                     .not(':button, :submit, :reset, :hidden')
+                     .val('')
+                     .removeAttr('checked')
+                     .removeAttr('selected');
+            }
+        });
+
+    });
+</script>

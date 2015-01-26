@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>7.2</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>false</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FullScreen>false</FullScreen>
+            <GalleryName>mainpage-small</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>slices</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>240</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>true</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/twist/</ImageTemplate>
+            <ImageTemplateName>Twist</ImageTemplateName>
+            <ImageWidth>320</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/vgadana/Documents/WOW Slider/index.html</PublishFileName>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPath>C:/Users/vgadana/Documents/WOW Slider</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>0</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>30</SlideshowDelay>
+            <SlideshowDuration>30</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateFont>PT Sans</TemplateFont>
+            <TemplateName>twist</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>55</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>45</ThumbWidth>
+            <Thumbnails>true</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>1</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/vgadana/Desktop/saibaba/saisa/saisa/images/mainsai1.jpg</url>
+                <title>mainsai1</title>
+                <filesize>105318</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/saibaba/saisa/saisa/images/sai_BW.jpg</url>
+                <title>sai_BW</title>
+                <filesize>105771</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/saibaba/saisa/saisa/images/saibaba.jpg</url>
+                <title>saibaba</title>
+                <filesize>188400</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/saibaba/saisa/saisa/images/saibaba-thumbnail.png</url>
+                <title>saibaba-thumbnail</title>
+                <filesize>47456</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/saibaba/saisa/saisa/images/saibaba-thumbnail.jpg</url>
+                <title>saibaba-thumbnail</title>
+                <filesize>101939</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

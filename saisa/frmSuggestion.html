@@ -1,0 +1,54 @@
+﻿
+<div class="row">
+    <h2>Send your suggestions to improve the temple to be more holy place</h2>
+    <hr />
+    <div class="col-md-6">
+        <div class="containerborder">
+            <h4>Suggestion Box</h4>
+            <form role="form" id="form1" >
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="text" class="form-control" id="subscribename" name="sname" placeholder="Enter Full Name(First, Last)">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="subscribeemail" name="semail" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="subscribecomms">Suggestions</label>
+                    <!--<input type="text" class="form-control" id="subscribecomms" name="scomments" placeholder="Comments">-->
+                    <textarea rows="4" cols="70" id="suggestion" name="scomments" placeholder="Suggestions"></textarea>
+                </div>
+                <input type="hidden" name="mailtype" value="3" />
+                <button type="button" data-msg="statusmsg3" class="btn btn-default submitsugg">Submit</button>
+                <div class="bg-primary" id="statusmsg3"></div>
+            </form>
+        </div>
+        </div> 
+
+</div>
+
+<script type="text/javascript">
+    //email
+    $('.submitsugg').click(function (e) {
+        //return false;
+        //alert(" suggestion clicked");
+        //console.log(this);
+        var $thismsg = $(this).attr("data-msg");
+        var $thisform = $($(this).parent()[0]);
+        $.ajax({
+            type: "POST",
+            url: "sendemail.php",
+            data: $thisform.serialize(),
+            success: function (data) {
+                $('#' + $thismsg).html(data).fadeIn(100).fadeOut(5000);
+                $(':input', $thisform)
+                     .not(':button, :submit, :reset, :hidden')
+                     .val('')
+                     .removeAttr('checked')
+                     .removeAttr('selected');
+            }
+        });
+
+    });
+</script>

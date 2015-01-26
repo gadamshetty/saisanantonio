@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>7.2</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>fade</CaptionsEffect>
+            <Controls>true</Controls>
+            <FullScreen>false</FullScreen>
+            <GalleryName>creategallery</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>cube</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>550</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/animated/</ImageTemplate>
+            <ImageTemplateName>Animated</ImageTemplateName>
+            <ImageWidth>800</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/vgadana/Desktop/saibaba/saisa/saisa/gallery.html</PublishFileName>
+            <PublishIndex>gallery.html</PublishIndex>
+            <PublishPath>C:/Users/vgadana/Desktop/saibaba/saisa/saisa</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateFont>Dosis</TemplateFont>
+            <TemplateName>animated</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1772.JPG</url>
+                <title>IMG_1772</title>
+                <filesize>2333329</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1773.JPG</url>
+                <title>IMG_1773</title>
+                <filesize>1233218</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1775.JPG</url>
+                <title>IMG_1775</title>
+                <filesize>1645785</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1777.JPG</url>
+                <title>IMG_1777</title>
+                <filesize>1690130</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1779.JPG</url>
+                <title>IMG_1779</title>
+                <filesize>1667380</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1780.JPG</url>
+                <title>IMG_1780</title>
+                <filesize>2383326</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1781.JPG</url>
+                <title>IMG_1781</title>
+                <filesize>2176189</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1783.JPG</url>
+                <title>IMG_1783</title>
+                <filesize>1715740</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1784.JPG</url>
+                <title>IMG_1784</title>
+                <filesize>1707134</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1786.JPG</url>
+                <title>IMG_1786</title>
+                <filesize>1923043</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1787.JPG</url>
+                <title>IMG_1787</title>
+                <filesize>1635450</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1788.JPG</url>
+                <title>IMG_1788</title>
+                <filesize>1314117</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1789.JPG</url>
+                <title>IMG_1789</title>
+                <filesize>1342054</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1792.JPG</url>
+                <title>IMG_1792</title>
+                <filesize>1316675</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1793.JPG</url>
+                <title>IMG_1793</title>
+                <filesize>1843794</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1794.JPG</url>
+                <title>IMG_1794</title>
+                <filesize>1569072</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1795.JPG</url>
+                <title>IMG_1795</title>
+                <filesize>1325481</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1796.JPG</url>
+                <title>IMG_1796</title>
+                <filesize>1860752</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1799.JPG</url>
+                <title>IMG_1799</title>
+                <filesize>1768967</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1803.JPG</url>
+                <title>IMG_1803</title>
+                <filesize>2009255</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1804.JPG</url>
+                <title>IMG_1804</title>
+                <filesize>2058783</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1806.JPG</url>
+                <title>IMG_1806</title>
+                <filesize>1805790</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1807.JPG</url>
+                <title>IMG_1807</title>
+                <filesize>1965386</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1808.JPG</url>
+                <title>IMG_1808</title>
+                <filesize>1721866</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1810.JPG</url>
+                <title>IMG_1810</title>
+                <filesize>1823846</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1811.JPG</url>
+                <title>IMG_1811</title>
+                <filesize>1769901</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1812.JPG</url>
+                <title>IMG_1812</title>
+                <filesize>2055183</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1813.JPG</url>
+                <title>IMG_1813</title>
+                <filesize>1891392</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1816.JPG</url>
+                <title>IMG_1816</title>
+                <filesize>1842202</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/vgadana/Desktop/Tanvi HalfSaree Function/IMG_1817.JPG</url>
+                <title>IMG_1817</title>
+                <filesize>1763733</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

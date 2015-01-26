@@ -1,0 +1,50 @@
+﻿<div class="row">
+    <div class="col-md-12">
+        <h1>Upcoming Events</h1> <!--<h4><a href="calendar/calendar.html" target="_blank">Complete List of Events</a> </h4>-->
+        <h4><a href="googlecalendar.html" target="_blank">Complete List of Events</a></h4>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h3 id="event1name">Event</h3>
+        <p id="event1desc">Detail are coming soon, please check back again.</p>
+        <a class="btn btn-default eventflyer" href="#" id="event1flyer" data-eventflyer="0">Flyer</a>
+    </div>
+
+    <div class="col-md-4">
+        <h3 id="event2name">Event</h3>
+        <p id="event2desc">Detail are coming soon, please check back again.</p>
+        <a class="btn btn-default eventflyer" href="#" id="event2flyer" data-eventflyer="0">Flyer</a>
+    </div>
+
+    <div class="col-md-4">
+        <h3 id="event3name">Event</h3>
+        <p id="event3desc">Detail are coming soon, please check back again.</p>
+        <a class="btn btn-default eventflyer" href="#" id="event3flyer" data-eventflyer="0">Flyer</a>
+    </div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <div id="eventflyerarea" style="max-width:600px;"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    $('.eventflyer').click(function (event) {
+        //alert("click");
+        //debugger;
+        var id = $(this).attr("data-eventflyer");
+        var srcfile = "../eventsdata/" + id + ".jpg";
+
+        $("#eventflyerarea").html($("<img style='max-width:1200px;'>").attr("src", srcfile));
+
+        $('html, body').animate({
+            scrollTop: $("#eventflyerarea").offset().top
+        }, 2000);
+
+    });
+
+</script>

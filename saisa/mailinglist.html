@@ -1,0 +1,62 @@
+﻿
+<div class="row">
+    <h2>Receive current temple events info and updates by joining Sai mailing group</h2>
+    <hr />
+    <div class="col-md-6">
+        <div class="containerborder">
+            <h4>Join Sai Mailing Group:</h4>
+            <form role="form" id="form1" >
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Name</label>
+                    <input type="text" class="form-control" id="subscribename" name="sname" placeholder="Enter Full Name(First, Last)">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="subscribeemail" name="semail" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Phone(Optional)</label>
+                    <input type="text" class="form-control" id="subscribephone" name="sphone" placeholder="Contact Number">
+                </div>
+                <div class="form-group">
+                    <label for="subscribecomms">Comments(Optional)</label>
+                    <input type="text" class="form-control" id="subscribecomms" name="scomments" placeholder="Comments">
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="svolunteer" value="Yes"> Interested in Volunteer
+                    </label>
+                </div>
+                <input type="hidden" name="mailtype" value="1" />
+                <button type="button" data-msg="statusmsg1" class="btn btn-default submitseva">Submit</button>
+                <div class="bg-primary" id="statusmsg1"></div>
+            </form>
+        </div>
+        </div> 
+
+</div>
+
+<script type="text/javascript">
+    //email
+    $('.submitseva').click(function (e) {
+        //return false;
+        //alert("clicked");
+        //console.log(this);
+        var $thismsg = $(this).attr("data-msg");
+        var $thisform = $($(this).parent()[0]);
+        $.ajax({
+            type: "POST",
+            url: "sendemail.php",
+            data: $thisform.serialize(),
+            success: function (data) {
+                $('#' + $thismsg).html(data).fadeIn(100).fadeOut(5000);
+                $(':input', $thisform)
+                     .not(':button, :submit, :reset, :hidden')
+                     .val('')
+                     .removeAttr('checked')
+                     .removeAttr('selected');
+            }
+        });
+
+    });
+</script>

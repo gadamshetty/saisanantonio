@@ -1,0 +1,22 @@
+﻿{
+    "gallerydata": [
+        { "galleryid": "1", "galleryname": "2014 Temple Opening", 
+						"galleryurl":	"https://picasaweb.google.com/112695316525759852117/GrandOpening", "eventdate": "10/24/2014" },
+        { "galleryid": "2", "galleryname": "2014 Temple Opening Homam", 
+						"galleryurl":	"https://picasaweb.google.com/112695316525759852117/Homam", "eventdate": "10/24/2014" },
+		{ "galleryid": "3", "galleryname": "2014 Temple Opening Abhishekam", 
+						"galleryurl":	"https://picasaweb.google.com/112695316525759852117/Abhishekam", "eventdate": "10/24/2014" },
+		{ "galleryid": "4", "galleryname": "2014 Temple Opening Rudrabhishekam", 
+						"galleryurl":	"https://picasaweb.google.com/112695316525759852117/Rudrabhishekam", "eventdate": "10/24/2014" },
+		{ "galleryid": "5", "galleryname": "2014 Sri Sai Sathya Vratha", 
+						"galleryurl":	"https://picasaweb.google.com/112695316525759852117/2014SriSaiSathyaVrata", "eventdate": "10/24/2014" },
+		{ "galleryid": "6", "galleryname": "2014 Dushera", 
+						"galleryurl":	"https://picasaweb.google.com/112695316525759852117/2014DusheraCelebrations", "eventdate": "10/24/2014" },
+		{ "galleryid": "7", "galleryname": "2014 Sri Sai Paduka Puja", 
+						"galleryurl":	"https://picasaweb.google.com/112695316525759852117/2014SaiPadukaPooja", "eventdate": "10/24/2014" },
+		{ "galleryid": "8", "galleryname": "2014 Diwali & Annakoot", 
+						"galleryurl":	"https://picasaweb.google.com/112695316525759852117/2014DiwaliAnnakoot", "eventdate": "10/24/2014" },
+		{ "galleryid": "9", "galleryname": "2014 Karthika Masa", 
+						"galleryurl":	"https://picasaweb.google.com/112695316525759852117/2014DiwaliAnnakoot", "eventdate": "10/24/2014" }
+    ]
+} 

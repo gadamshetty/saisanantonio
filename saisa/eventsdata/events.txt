@@ -1,0 +1,7 @@
+﻿{
+    "eventdata": [
+        { "eventid": "1", "eventname": "Bhogi Pongal Celebration", "eventdesc": "Detail are coming soon, please check back again", "eventdate": "01/13/2015" },
+        { "eventid": "2", "eventname": "Chandi Homam", "eventdesc": "Detail are coming soon, please check back again", "eventdate": "01/31/2015" },
+        { "eventid": "3", "eventname": "Sankranthi", "eventdesc": "Detail are coming soon, please check back again", "eventdate": "1/14/2015" }
+    ]
+}
