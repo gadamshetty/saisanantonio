@@ -68,7 +68,8 @@ $('#home').click(function (e) {
 
 $('#events').click(function (e) {
     //scroll to replacecontent when any menu item clicked....
-    $("#container").scrollTop();
+    //$("#replacecontent").toggle('slide');
+
 
 
 
@@ -97,7 +98,7 @@ $('#events').click(function (e) {
             $('#event3desc').html(sortedevents[2].eventdesc);
             $('#event3flyer').attr("data-eventflyer", sortedevents[2].eventid);
 
-            showREplaceContent();
+            //showREplaceContent();
         });
     });
 
@@ -107,9 +108,12 @@ $('#events').click(function (e) {
 
 
 $('#ehundi').click(function (e) {
+
     $("#container").scrollTop();
-    $("#replacecontent").load("../ehundi.html");
-    setTimeout(showREplaceContent(),2000);
+
+    $("#replacecontent").load("../ehundi.html")
+
+    //setTimeout(showREplaceContent(),2000);
 });
 
 $('#dailyservices').click(function (e) {
