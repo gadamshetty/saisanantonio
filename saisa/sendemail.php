@@ -22,7 +22,7 @@
   
   $phone = '';
   if (isset( $_REQUEST['sphone']) ){
-    $email = $_REQUEST['sphone'] ;
+    $phone = $_REQUEST['sphone'] ;
   }
   
   if($smailtype == 3){
