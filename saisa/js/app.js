@@ -44,7 +44,19 @@ window.twttr = (function (d, s, id) {
  
 
 $(document).ready(function (e) {
-    $('.navlinks').click(function (e) {  $('#bs-example-navbar-collapse-1').css("height", "0px") });
+    $('.navlinks').click(function (e) { $('#bs-example-navbar-collapse-1').css("height", "0px") });
+    
+    $.get("../eventsdata/babaidolsponsors.txt", function (data) {
+        var sponsordata = JSON.parse(data);
+        //var futureevents = eventsdata.eventdata.filter(function (event) { if (Date.parse(event.eventdate) >= Date.now()) { return event; } });
+        var sponsors = sponsordata.sponsors;
+        $('#babasponsors').html('');
+        sponsors.forEach(function (sponsor) {
+            $('#babasponsors').append('<span style="padding-right:100px;">' + sponsor.sname + '</span>')
+        });
+        $('.marquee').marquee();
+    });
+
 });
 
 function showREplaceContent(){
@@ -246,7 +258,7 @@ $('#gallery').click(function (e) {
             //$('#gallerycontainer').html(topgalleries[0].galleryname);
 
             topgalleries.forEach(function (gallery) {
-                $('#gallerycontainer').append('<div class="col-md-10 galleryrow"><a target="_new" href="' + gallery.galleryurl + '">' + gallery.galleryname + '</a></div>')
+                $('#gallerycontainer').append('<div class="col-md-10 galleryrow"><i class="fa fa-hand-o-right fa-lg"> </i>&nbsp;&nbsp;<a target="_new" href="' + gallery.galleryurl + '">' + gallery.galleryname + '</a></div>')
             });
         showREplaceContent();
         });

@@ -13,9 +13,16 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <!-- Custom CSS -->
     <link href="css/saisa.css" rel="stylesheet">
+
+    <!-- get the required files from 3rd party sources -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <!-- use the font -->
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -108,9 +115,41 @@
             
         </div>
         <!-- /.container -->
-        <div id="banner" style="background-color:#BA8A0F;color:white;text-align:center;font-size:xx-large;font-family:cursive"><em>Sri Shirdi Sai Baba Temple of San Antonio</em></div>
+        <div data-toggle="modal"  id="banner" style="font-family: 'Roboto', sans-serif; background-color:#BA8A0F;color:rgba(58, 14, 244, 0.8);text-align:center;font-size:x-large">
+            <em style="margin:0 20px 0 0px">Sri Shirdi Sai Baba Temple of San Antonio</em>
+            <a id="mailinglist2" title="Subscrbe to Mailing List" style="margin-right:20px;cursor:pointer;color:black;caption-side:bottom;"><i class="fa fa-envelope-o"></i></a>
+            <a class="suggestionbox" title="Suggestions" style="cursor:pointer;color:black;caption-side:bottom;"><i class="fa fa-archive"></i></a>
+            <!--<em style="text-decoration:underline;">SRI SHIRDI SAI BABA VIGRAHA VAAYU PRATISHTA</em>-->
+        </div>
     </nav>
     <!--<div style="background-color:#BA8A0F;color:white;text-align:center;font-size:xx-large;">Sri Shirdi Sai Baba Temple of San Antonio</div>-->
+
+    <!--VAAYU PRATHISTHA-->
+    <!-- Button trigger modal
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        Launch demo modal
+    </button>
+         -->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">SRI SHIRDI SAI BABA VIGRAHA VAAYU PRATISHTA</h4>
+                    <h6>Check in Events for complete Event Schedule</h6>
+                </div>
+                <div class="modal-body text-center">
+                    <img src="eventsdata/Prathista.jpg" width="90%" height="90%" />
+                </div>
+                <!--<div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
     <!-- Page Content -->
     <div class="container" style="padding-bottom:20px;width:90%;box-shadow: 12px 0 15px -9px rgba(31, 73, 125, 0.8), -12px 0 8px -9px rgba(31, 73, 125, 0.8);
         background:white;">
@@ -120,18 +159,275 @@
                 One time Opportunity : Contribute for establishing Sai Baba 4 Feet idol in the temple, <a href="#">Click here</a> for more details
             </div>
         </div>-->
+        
         <div id="replacecontent">
             <!-- Heading Row -->
             <div class="mainrow">
                 <div class="col-md-6">
-                    <iframe src="mainpagegallery.html" style="min-width:480px;height:440px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+                    <!--<iframe src="mainpagegallery.html" style="min-width:480px;height:440px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>-->
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3" ></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+
+
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="images/sai01.jpg" >
+                            </div>
+                            <div class="item">
+                                <img src="images/sai02.jpg">
+                            </div>
+                            <div class="item">
+                                <img src="images/sai03.jpg">
+                            </div>
+                            <div class="item">
+                                <img src="images/sai04.jpg">
+                            </div>
+                            <!--<div class="item">
+                                <img src="images/sai05.jpg">
+                            </div>-->
+                            <div class="item">
+                                <img src="images/sai06.jpg">
+                            </div>
+                            <div class="item">
+                                <img src="images/sai07.jpg">
+                            </div>
+                            <div class="item">
+                                <img src="images/sai08.jpg">
+                            </div>
+                            <div class="item">
+                                <img src="images/sai09.jpg">
+                            </div>
+                            <div class="item">
+                                <img src="images/sai10.jpg">
+                            </div>
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                    </div>
                     <!--<img class="img-responsive img-rounded" style="height:325px;" src="../images/mainsai1.jpg" alt="">-->
                 </div>
 
-                <div class="col-md-6">
+                <!--<div class="col-md-6">
+                    <div class="text-center">
+                        <a id="mailinglist2" style="cursor:pointer;color:rgb(107, 104, 104);"><i class="fa fa-envelope-o fa-5x"></i></a> <span>&nbsp;Join Mailing List&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <a class="suggestionbox" style="cursor:pointer;color:rgb(107, 104, 104);"><i class="fa fa-archive fa-5x"></i></a> <span>&nbsp;Suggestions</span>
+                    </div>
+                </div>-->
+                <!--<div class="col-md-6">
                     <a id="mailinglist2"><img  style="width:100px;height:50px;cursor:pointer;margin-bottom:5px;" src="images/mailbox2.png"></a><span>&nbsp;Join Mailing List</span> 
-                    <!--<div id="mailinglist2"  class="glyphicon glyphicon-envelope">Join Sai Mailing Group</div>-->
                     <a class="suggestionbox"><img style="width:100px;height:50px;cursor:pointer;margin-bottom:5px;" src="images/suggestion.png"></a><span>&nbsp;Suggestions</span> 
+                </div>-->
+
+                <div class="col-md-6">
+                    
+                    <div id="mainad" class="jumbotron">
+                        
+                            <div class="container text-center">
+                            <!--One time Opportunity : Contribute for establishing Sai Baba 4 Feet idol in the temple, <a href="#">Click here</a> for more details-->
+                            <!--Sponsor for BABA idol(<a style="font-size:13px" target="_blank" href="/quicklinks/idol.pdf">Click here for more details</a>)-->
+                                <div>Sponsor:</div>
+                                <!--<div style="color:blue;" class="text-center">Baba Idol Sponsors</div>
+                                <div id="babasponsors" class="marquee" style="margin-bottom:15px; width: 99%;  overflow: hidden;  border: 1px solid #ccc;  background: #ccc;">
+                                    <span style="padding-right:100px;">Loading sponsors.....</span>
+                                </div>-->
+
+                            <!--<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="DN5GKKFPW8LWW">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>-->
+                            <!--<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                <input type="hidden" name="cmd" value="_donations">
+                <input type="hidden" name="business" value="shirdisaitemplesa@gmail.com">
+                <input type="hidden" name="lc" value="US">
+                <input type="hidden" name="item_name" value="Sri Shirdi Sai Baba Temple of San Antonio">
+                <input type="hidden" name="item_number" value="Baba Idol Project: Pl. provide Name and Gotra in the Special Instruction text box after login">
+                <input type="hidden" name="no_note" value="0">
+                <input type="hidden" name="currency_code" value="USD">
+                <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+
+                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                                    <input type="hidden" name="cmd" value="_xclick">
+                                    <input type="hidden" name="business" value="shirdisaitemplesa@gmail.com">
+                                    <input type="hidden" name="lc" value="US">
+                                    <input type="hidden" name="item_name" value="Baba Idol Prathista">
+                                    <input type="hidden" name="item_number" value="Baba Idol Project: Pl. provide Name and Gotra in the Special Instruction text box after login">
+                                    <input type="hidden" name="button_subtype" value="services">
+                                    <input type="hidden" name="no_note" value="0">
+                                    <input type="hidden" name="currency_code" value="USD">
+                                    <input type="hidden" name="tax_rate" value="0.000">
+                                    <input type="hidden" name="shipping" value="0.00">
+                                    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynowCC_LG.gif:NonHostedGuest">
+                                    <table class="text-center" style="width:99%">
+                                        <tr><td><input type="hidden" name="on0" value="Donations for Bab Idol Prathista">Donations for Bab Idol Prathista</td></tr>
+                                        <tr>
+                                            <td>
+                                                <select name="os0">
+                                                    <option value="Donor Level 250">Donor Level $250.00 USD</option>
+                                                    <option value="Donor Level 500">Donor Level $500.00 USD</option>
+                                                    <option value="Donor Level 1000">Donor Level $1,000.00 USD</option>
+                                                    <option value="All 5 Adhivasas">All 5 Adhivasas $250.00 USD</option>
+                                                    <option value="Sai Homam">Sai Homam $51.00 USD</option>
+                                                    <option value="Baba Garland">Baba Garland $101.00 USD</option>
+                                                    <option value="Cloths/Ornaments">Cloths/Ornaments $101.00 USD</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <input type="hidden" name="currency_code" value="USD">
+                                    <input type="hidden" name="option_select0" value="Donor Level 250">
+                                    <input type="hidden" name="option_amount0" value="250.00">
+                                    <input type="hidden" name="option_select1" value="Donor Level 500">
+                                    <input type="hidden" name="option_amount1" value="500.00">
+                                    <input type="hidden" name="option_select2" value="Donor Level 1000">
+                                    <input type="hidden" name="option_amount2" value="1000.00">
+                                    <input type="hidden" name="option_select3" value="All 5 Adhivasas">
+                                    <input type="hidden" name="option_amount3" value="250.00">
+                                    <input type="hidden" name="option_select4" value="Sai Homam">
+                                    <input type="hidden" name="option_amount4" value="51.00">
+                                    <input type="hidden" name="option_select5" value="Baba Garland">
+                                    <input type="hidden" name="option_amount5" value="101.00">
+                                    <input type="hidden" name="option_select6" value="Cloths/Ornaments">
+                                    <input type="hidden" name="option_amount6" value="101.00">
+                                    <input type="hidden" name="option_index" value="0">
+                                    <input style="margin-top:10px;" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                    <img  alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                </form>-->
+                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                                    <input type="hidden" name="cmd" value="_xclick">
+                                    <input type="hidden" name="business" value="shirdisaitemplesa@gmail.com">
+                                    <input type="hidden" name="lc" value="US">
+                                    <input type="hidden" name="item_name" value="Baba Idol Prathista">
+                                    <input type="hidden" name="item_number" value="Baba Idol Project: Pl. provide Name and Gotra in the Special Instruction text box after login">
+                                    <input type="hidden" name="button_subtype" value="services">
+                                    <input type="hidden" name="no_note" value="0">
+                                    <input type="hidden" name="currency_code" value="USD">
+                                    <input type="hidden" name="tax_rate" value="0.000">
+                                    <input type="hidden" name="shipping" value="0.00">
+                                    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynowCC_LG.gif:NonHostedGuest">
+                                    <table class="text-center" style="width:99%">
+                                        <!--<tr><td><input type="hidden" name="on0" value="Donations for Bab Idol Prathista">Donations for Bab Idol Prathista</td></tr>-->
+                                        <tr>
+                                            <td>
+                                                <select name="os0">
+                                                    <option value="Baba Garland">Baba Garland $101.00 USD</option>
+                                                    <option value="Cloths/Ornaments">Cloths/Ornaments $101.00 USD</option>
+                                                    <option value="Singhasan">Singhasan $251.00 USD</option>
+                                                </select>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <input type="hidden" name="currency_code" value="USD">
+                                    <input type="hidden" name="option_select0" value="Baba Garland">
+                                    <input type="hidden" name="option_amount0" value="101.00">
+                                    <input type="hidden" name="option_select1" value="Cloths/Ornaments">
+                                    <input type="hidden" name="option_amount1" value="101.00">
+                                    <input type="hidden" name="option_select2" value="Singhasan">
+                                    <input type="hidden" name="option_amount2" value="251.00">
+                                    <input type="hidden" name="option_index" value="0">
+                                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                </form>
+
+
+                                <!--
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                                <input type="hidden" name="cmd" value="_xclick">
+                                <input type="hidden" name="business" value="shirdisaitemplesa@gmail.com">
+                                <input type="hidden" name="lc" value="US">
+                                <input type="hidden" name="item_name" value="Baba Idol Prathista">
+                                <input type="hidden" name="item_number" value="Baba Idol Project: Pl. provide Name and Gotra in the Special Instruction text box after login">
+                                <input type="hidden" name="button_subtype" value="services">
+                                <input type="hidden" name="no_note" value="0">
+                                <input type="hidden" name="currency_code" value="USD">
+                                <input type="hidden" name="tax_rate" value="0.000">
+                                <input type="hidden" name="shipping" value="0.00">
+                                <input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynowCC_LG.gif:NonHostedGuest">
+                                <table>
+                                    <tr><td><input type="hidden" name="on0" value="Donations for Bab Idol Prathista">To Sponsor for Baba Idol or Vaayu Pratishta click Donate</td></tr>
+                                    <tr>
+                                        <td>
+                                            <select name="os0">
+                                                <option value="Sai Satya Vratham">Sai Satya Vratham </option>
+                                                <option value="Adhivasas">Adhivasas </option>
+                                                <option value="Homam">Homam </option>
+                                                <option value="Baba Garland">Baba Garland </option>
+                                                <option value="Cloths">Cloths </option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                                -->
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="panel panel-success">
+                        <div class="panel-heading"><h7>Address</h7></div> 
+                        <a id="mapit" href="#"><img style="margin:5px 5px;width:18px;height:18px;" src="images/map.png" /></a>8600 Wurzbach, Suite #702, San Antonio, TX - 78240 <small></small>&nbsp;&nbsp;&nbsp;<span><i class="fa fa-envelope-o fa-lg">&nbsp;</i>info@saisanantonio.org &nbsp; &nbsp;<i style="margin-left:2px;" class="fa fa-phone fa-lg">&nbsp;</i>210-910-4554</span>
+                    </div>
+                </div>
+
+                <!--
+                <div class="col-lg-3">
+                    <div class="panel panel-success">
+                        <div class="panel-heading"><h7>Weekly Program</h7></div>
+                        <div class="panel-body">
+                            <h4>Thursday</h4>
+                            <div>Sai Baba Abhishekam&nbsp;:&nbsp;07:00 PM</div>
+                            <div>Sai Baba Archana&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;07:45 PM</div>
+                            <div>Pallaki Seva, Bhajans&nbsp;&nbsp;:&nbsp;08:00 PM</div>
+                            <div>Night/Shej Aarati&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;08:15 PM</div>
+                            <div>Maha Prasad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;08:30 PM</div>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-success">
+                        <div class="panel-heading"><h7>AARATI Times</h7></div>
+                        <div class="panel-body">
+                            <div>Morning/Kakad Aarati&nbsp;&nbsp;:&nbsp;08.30 AM</div>
+                            <div>Noon/Madhyan Aarati&nbsp;&nbsp;:&nbsp;12 Noon</div>
+                            <div>Evening/Dhoop Aarati&nbsp;&nbsp;:&nbsp;06:30 PM</div>
+                            <div>Night/Shej Aarati&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;08:00 PM</div>
+                        </div>
+                    </div>
+
+
+
                 </div>
 
                 <div class="col-lg-3">
@@ -162,6 +458,8 @@
                 </div>
 
                 <div class="col-lg-3">
+
+
                     <div class="panel panel-success">
                         <div class="panel-heading"><h7>Temple Timings</h7></div>
                         <div class="panel-body">
@@ -196,24 +494,80 @@
                     </div>
                 </div>
 
-
+                -->
 
 
             </div>
-            <!-- /.row -->
+            <!-- /.row 
             <div class="mainrow">
-                <div class="col-md-8">
+                <div class="col-md-6">
                     <div class="panel panel-success">
                         <div class="panel-heading"><h7>Address1</h7></div>
                         <a id="mapit" href="#"><img style="margin:5px 5px;width:18px;height:18px;" src="images/map.png" /></a>8600 Wurzbach, Suite #702, San Antonio, TX - 78240 <small></small>&nbsp;&nbsp;&nbsp;<span><img src="images/iconMail.png" />&nbsp;info@saisanantonio.org &nbsp; &nbsp; <img src="images/iconPhone.png" />&nbsp;210-910-4554</span>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div id="mainad" class="jumbotron">
-                        <div class="container">
-                            <!--One time Opportunity : Contribute for establishing Sai Baba 4 Feet idol in the temple, <a href="#">Click here</a> for more details-->
-                            Sponsor for BABA idol. <a target="_blank" href="/quicklinks/idol.pdf">Click here</a> for more details.
+                
+            </div>-->
 
+            <div class="mainrow">
+                <div class="col-lg-3">
+                    <div class="panel panel-success">
+                        <div class="panel-heading"><h7>Weekly Program</h7></div>
+                        <div class="panel-body">
+                            <h4>Thursday</h4>
+                            <div>Sai Baba Abhishekam&nbsp;:&nbsp;07:00 PM</div>
+                            <div>Sai Baba Archana&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;07:45 PM</div>
+                            <div>Pallaki Seva, Bhajans&nbsp;&nbsp;:&nbsp;08:00 PM</div>
+                            <div>Night/Shej Aarati&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;08:15 PM</div>
+                            <div>Maha Prasad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;08:30 PM</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3">
+
+                    <div class="panel panel-success">
+                        <div class="panel-heading"><h7>AARATI Times</h7></div>
+                        <div class="panel-body">
+                            <div>Morning/Kakad Aarati&nbsp;&nbsp;:&nbsp;08.30 AM</div>
+                            <div>Noon/Madhyan Aarati&nbsp;&nbsp;:&nbsp;12 Noon</div>
+                            <div>Evening/Dhoop Aarati&nbsp;&nbsp;:&nbsp;06:30 PM</div>
+                            <div>Night/Shej Aarati&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;08:00 PM</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="panel panel-success">
+                        <div class="panel-heading"><h7>Temple Timings</h7></div>
+                        <div class="panel-body">
+                            <h4>Monday - Friday</h4>
+                            <div>08:30 AM&nbsp;&nbsp;&nbsp;   - 09:30 AM</div>
+                            <div>12:00 Noon - 01:00 PM</div>
+                            <div>06.00 PM&nbsp;&nbsp;&nbsp;   - 08:30 PM</div>
+                            <h4>Saturday - Sunday</h4>
+                            <div>08:30 AM  - 02:00 PM</div>
+                            <div>06.00 PM  - 08:30 PM</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="panel panel-success">
+                        <div class="panel-heading"><h7>Support us on Social Media</h7></div>
+                        <div id="fb-root"></div>
+                        <div class="fb-like" data-href="https://www.facebook.com/shirdisaibabatempleofsanantonio" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+                        <div style="margin-top:5px;">
+                            <a class="twitter-follow-button"
+                               href="https://twitter.com/shirdisaisatx"
+                               data-show-count="true"
+                               data-show-screen-name="true"
+                               data-size="medium"
+                               data-lang="en">
+                                Follow @twitterdev
+                            </a>
+                        </div>
+                        <div>
+                            Play/Stop background Music :
+                            <iframe width="40" height="20" src="//www.youtube.com/embed/MRAfq9mUC7o?autoplay=1&enablejsapi=1" frameborder="0" allowfullscreen=""></iframe>
                         </div>
                     </div>
                 </div>
@@ -273,6 +627,7 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script type='text/javascript' src='//cdn.jsdelivr.net/jquery.marquee/1.3.1/jquery.marquee.min.js'></script>
     <script src="js/app.js"></script>
 
 </body>

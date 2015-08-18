@@ -6,6 +6,7 @@
 
 body {
     padding-top: 102px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    font-family: 'Roboto', sans-serif;
 }
 
 h7{
@@ -145,7 +146,7 @@ div#mainad.jumbotron {
 
 @media(min-width:768px) {
     body {
-        padding-top: 102px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+        padding-top: 90px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     }
 
     .navbar-fixed-top .navbar-brand {
